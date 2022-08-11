@@ -6,7 +6,7 @@ j=1
 while [ $x -le 1 ]
 do
   echo "Welcome $x times"
-  string=Test_ADO_Perf_$((x-1))
+  string=Tests_ADO_Perf_$((x-1))
   string1=ADO_Perf_$((x))
   git branch $string master
   git checkout -b $string
